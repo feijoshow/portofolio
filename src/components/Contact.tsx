@@ -196,7 +196,7 @@ export default function Contact() {
         display: 'flex', justifyContent: 'space-between', alignItems: 'center', flexWrap: 'wrap', gap: '1rem',
       }}>
         <span style={{ fontFamily: 'var(--font-display)', fontSize: '1.1rem', fontWeight: 300, color: 'var(--text-muted)', letterSpacing: '0.1em' }}>
-          Cristiano Feijo<span style={{ color: 'var(--copper)' }}>.</span>
+          Feijo<span style={{ color: 'var(--copper)' }}>.</span>
         </span>
         <span style={{ fontFamily: 'var(--font-mono)', fontSize: '0.6rem', color: 'var(--text-muted)', letterSpacing: '0.1em' }}>
           © 2025 · Built with React · Deployed on Vercel
