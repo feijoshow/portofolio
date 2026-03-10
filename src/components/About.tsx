@@ -1,4 +1,4 @@
-import { useEffect, useRef } from 'react';
+import React, { useEffect, useRef } from 'react';
 
 const bugs = [
   'Cannot stop building once an idea takes hold',

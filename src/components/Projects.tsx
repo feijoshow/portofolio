@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 
 const projects = [
   {
@@ -11,7 +11,7 @@ const projects = [
     stack: ['React', 'TypeScript', 'NestJS', 'PostgreSQL', 'TypeORM', 'JWT', 'RBAC'],
     shipped: ['Auth system (JWT, role-based)', 'Landlord dashboard', 'Tenant dashboard + credit score', 'KYC document verification', 'Auto credit score engine'],
     planned: ['Stripe payment integration', 'Credit bureau API reporting', 'Escrow & deposit management', 'Mobile apps'],
-    link: 'https://github.com/robertofeijon/CRENIT',
+    link: 'https://github.com/feijoshow/crenit',
     featured: true,
   },
   {
