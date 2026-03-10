@@ -83,7 +83,7 @@ export default function About() {
             onMouseEnter={e => (e.currentTarget.style.color = 'var(--copper-bright)')}
             onMouseLeave={e => (e.currentTarget.style.color = 'var(--copper)')}
             >
-              cristianofeijon@gmail.com →
+              cristianofeijo@gmail.com →
             </a>
           </div>
         </div>
@@ -97,11 +97,11 @@ export default function About() {
             borderRadius: '4px', padding: '2rem', marginBottom: '2rem',
             fontFamily: 'var(--font-mono)', fontSize: '0.75rem',
           }}>
-            <div style={{ color: 'var(--copper)', marginBottom: '1.2rem', fontSize: '0.65rem', letterSpacing: '0.2em' }}>{'//'} system.info</div>
+            <div style={{ color: 'var(--copper)', marginBottom: '1.2rem', fontSize: '0.65rem', letterSpacing: '0.2em' }}>{'// system.info'}</div>
             {[
               { k: 'NAME', v: 'Feijo' },
               { k: 'ROLE', v: 'Fullstack Engineer' },
-              { k: 'LOCATION', v: 'Windhoek, Namibia ' },
+              { k: 'LOCATION', v: 'Windhoek, Namibia 🌍' },
               { k: 'STATUS', v: 'open to collabs & opportunities' },
               { k: 'UPTIME', v: 'always building' },
               { k: 'KERNEL', v: 'curiosity v∞' },
@@ -121,7 +121,7 @@ export default function About() {
             borderRadius: '4px', padding: '2rem',
             fontFamily: 'var(--font-mono)', fontSize: '0.75rem',
           }}>
-            <div style={{ color: 'var(--copper)', marginBottom: '1.2rem', fontSize: '0.65rem', letterSpacing: '0.2em' }}>{'//'} known_bugs.log</div>
+            <div style={{ color: 'var(--copper)', marginBottom: '1.2rem', fontSize: '0.65rem', letterSpacing: '0.2em' }}>{'// known_bugs.log'}</div>
             {bugs.map((bug, i) => (
               <div key={i} style={{ display: 'flex', gap: '0.75rem', marginBottom: '0.6rem', color: 'var(--text-secondary)', lineHeight: 1.5 }}>
                 <span style={{ color: 'var(--copper)', opacity: 0.5 }}>—</span>
